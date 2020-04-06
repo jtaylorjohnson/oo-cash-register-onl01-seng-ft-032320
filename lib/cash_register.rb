@@ -32,8 +32,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    
-    if @items = []
+    if @items == []
       then @total = 0.0 
     else 
         @total -= @price
